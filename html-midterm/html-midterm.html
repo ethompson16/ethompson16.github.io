@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error-Filled Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/html-midterm.css"/>
 </head>
     
 <body>
@@ -38,7 +39,7 @@
         </tr>
         <tr>
             <td>John</td>
-            <td>25<td>
+            <td>25</td>
         </tr>
         <tr>
             <td>Jane</td>
@@ -48,9 +49,9 @@
     
     <img src="/html-midterm/error.jpeg" alt="Error Image">
 
-    <p align="center">
-        This is centered text.
-    </p>
+    <div class="center">
+    <p>This is centered text.</p>
+    </div>
 
     <p style="background-color:lightgrey;">Text</p>
 
@@ -66,6 +67,24 @@
         <dt>Descriptive Item Title</dt>
         <dd>Descriptive Item Text</dd>
     </dl>
+<div class="center">
+<h2>Corrected Errors</h2>
+</div>
+
+<ol>
+    <li>Incorrect boiler plate. Added !DOCTYPE and added meta elements to the head.</li>
+    <li>Incorrect lang attribute notation and location. Corrected from language to lang and moved the attribute out of the head.</li>
+    <li>Missing closing header tag. Added /h1 to the header.</li>
+    <li>Mismatched list tags. Changed closing tag from ul to ol.</li>
+    <li>Missing closing p tag. Added closing p tag.</li>
+    <li>Incorrect image sourcing and missing alt text. Correctly sourced the image and added alt text.</li>
+    <li>Target=_blank unecessary and incorrect closing tag. Removed the target=_blank and corrected closing tag from /img to /a</li>
+    <li>Incorrect closing tag within the table element. Corrected closing tag from td to /td.</li>
+    <li>Table was missing a closing tag. Added /table closing element</li>
+    <li>Incorrect img src attribute and incorrect image sourcing. Changed source to src and correctly sourced the image</li>
+    <li>Incorrect center attribute. Correctly centered the text using CSS</li>
+</ol>
+
 
 </body>
 </html>
