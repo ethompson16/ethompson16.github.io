@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(228, 222, 209);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: Abel, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-stretch:ultra-expanded
+  }
+
+  .header {
+    text-align: center;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 40px;
+  }
+
+  .container {
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .item1 {
+    order: 0;
+    padding:10px;
+    border: 1px solid #36322e;
+    text-align: center;
+  }
+
+  .item2 {
+    order: 1;
+    padding:20px;
+    border: 1px solid #36322e;
+  }
+
+  .container2 {
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+  }
+
+  .item3 {
+    order:2;
+    padding:20px;
+    border: 1px solid #36322e;
+  }
+
+  .item4 {
+    order:3;
+    padding:20px;
+    border: 1px solid #36322e;
+  }

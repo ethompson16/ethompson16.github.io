@@ -1,0 +1,207 @@
+body {
+    background-color: rgb(228, 222, 209);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: Abel, Bebas Neue, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-stretch:ultra-expanded
+  }
+
+  .header {
+    font-style: Bebas Neue, sans-serif;
+    font-size: 50px;
+    font-weight:400;
+    text-align: center;
+    font-size: 100%;
+  }
+
+    .container {
+        width: auto;
+        height: auto; 
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 15px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .container .card {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        padding: 30px;
+        background: linear-gradient(60deg, #ffffff 0%, #ffffff 100%);
+        overflow: hidden;
+        margin-bottom: 15px;
+        border-radius: 0px;
+        border:1px solid #5e5750;
+        box-shadow: 0 0 15px rgba(88, 78, 67, 0.3);
+    }
+
+    .container .card h2 {
+        z-index: 99;
+        position: absolute;
+        bottom: auto;
+        right: auto;
+        padding-left: 20px;
+        font-size: 60px;
+        font-weight: 100;
+        text-align: left;
+        color: rgb(0, 0, 0);
+        pointer-events: none;
+        transition: 0.2s ease;
+        /*text-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
+    }
+
+    .container .card a {
+        z-index: 99;
+        position: absolute;
+        bottom: 30px;
+        right: 130px;
+        width: auto;
+        color: rgb(0, 0, 0);
+        opacity: 0;
+        font-family: Abel, sans-serif;
+        font-size: 40px;
+        padding-right: 20px;
+        text-align: right;
+        transition: 0.2s ease;
+    }
+
+
+    .container .card .pic {
+        width: 395px;
+        height: 200px;
+        background-image: url(/img/circle2.png);
+        background-position: 0%;
+        background-size: cover;
+        padding:80px;
+        transition: 0.3s ease;
+    }
+
+    .container .card button {
+        position: absolute;
+        right: 30px;
+        bottom: 40px;
+        width: 30px;
+        height: 30px;
+        background-color: rgb(120, 103, 85);
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        outline: none;
+        opacity: 1;
+        transition: 0.3s ease;
+    }
+
+    .container .card:hover button {
+        transform: scale(16.5);
+        opacity: 0.5;
+    }
+
+    .container .card:hover h2 {
+        bottom: 80px;
+        right: 50px;
+    }
+
+    .container .card:hover a {
+        opacity: 1;
+        right: 60px;
+    }
+
+    .container .card:hover span {
+        opacity: 0;
+        top: 80px;
+    }
+
+    .container .card:hover .pic {
+        width: 470px;
+    }
+
+    .container .card2 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card2 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    .container .card3 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card3 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    .container .card4 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card4 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    .container .card5 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card5 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    .container .card6 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card6 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    .container .card7 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card7 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    .container .card8 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card8 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    .container .card9 .pic {
+        background-image: url(/img/circle2.png);
+        transition: 0.3s ease;
+    }
+
+    .container .card9 button {
+        background-color: rgb(120, 103, 85);
+    }
+
+    @media (max-width: 400px) {
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+  
+  
+  
