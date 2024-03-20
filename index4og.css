@@ -1,0 +1,265 @@
+body {
+    background-color: #f6f6f6;
+    color: rgb(0, 0, 0);
+    font-family: helvetica, sans-serif;
+}
+
+a:hover {
+    color: grey;
+}
+
+.a {
+    color: black;
+    font-family: abel, sans-serif;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.header {
+    text-align:center;
+}
+
+.headertext {
+    text-align:center;
+    font-size: 9px;
+    color:#242424;
+}
+
+.photo {
+    width: auto;
+    align-content: center;
+}
+
+
+.grid-container { 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    font-size: 10px;
+    width: fit-content;
+    height: fit-content;
+    color:black;
+}
+
+.grid-item0 {
+    text-align:start;
+    border-right: 1px solid black;
+    font-size: 35px;
+}
+
+.grid-item1 {
+    background-color: #f6f6f6;
+    border-right: 1px solid black;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item1 img {
+    width:100%;
+}
+
+.grid-item2 {
+    background-color: #f6f6f6;
+    border-right: 1px solid black;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item2 img {
+    width:100%;
+}
+
+.grid-item3 {
+    background-color: #f6f6f6;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item3 img {
+    width:100%;
+}
+
+.grid-item4 {
+    background-color: #f6f6f6;
+    border-right: 1px solid black;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item4 img {
+    width:100%;
+}
+
+.grid-item5 {
+    background-color: #f6f6f6;
+    border-right: 1px solid black;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item5 img {
+    width:100%;
+}
+
+.grid-item6 {
+    background-color: #f6f6f6;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item6 img {
+    width:100%;
+}
+
+.grid-item7 {
+    background-color: #f6f6f6;
+    border-right: 1px solid black;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item7 img {
+    width:100%;
+}
+
+.grid-item8 {
+    background-color: #f6f6f6;
+    border-right: 1px solid black;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item8 img {
+    width:100%;
+}
+
+.grid-item9 {
+    background-color: #f6f6f6;
+    text-align: left;
+    font-size: 15px;
+    width:100%;
+    padding-right:6px;
+}
+
+.grid-item9 img {
+    width:100%;
+}
+
+.dates {
+    text-align: right;
+    font-size:25px;
+    
+}
+
+@media screen and (max-width: 642px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-item1 {
+        border-left:1px solid black;
+    }
+
+    .grid-item1 p {
+        padding-left:5px;
+    }
+    .grid-item3 {
+        border-left:1px solid black;
+        padding-left:5px;
+    }
+
+    .grid-item4 {
+        border-left:1px solid black;
+        padding-left:5px;
+    }
+
+    .grid-item5 {
+        border-left:1px solid black;
+        padding-left:5px;
+    }
+
+    .grid-item6 {
+        border-right:1px solid black;
+        padding-left:5px;
+    }
+
+    .grid-item7 {
+        border-left:1px solid black;
+        padding-left:5px;
+    }
+
+    .grid-item9 {
+        border-left:1px solid black;
+        border-right: 1px solid black;
+        padding-left:5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item1 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+    .grid-item2 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+    .grid-item3 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+    .grid-item4 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+    .grid-item5 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+    .grid-item6 {
+        border: 1px solid black;  
+        padding-left: 5px;
+    }
+    
+    .grid-item7 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+    .grid-item8 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+    .grid-item9 {
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+}

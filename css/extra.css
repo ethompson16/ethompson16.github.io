@@ -89,3 +89,16 @@
         }
     }
     */
+
+    /*.container .card span {
+        z-index: 99;
+        position:absolute;
+        top: 60px;
+        right: 35px;
+        color: #ffffff;
+        font-size: 30px;
+        letter-spacing: 1px;
+        writing-mode: vertical-lr;
+        transition: 0.2s ease;
+        opacity: 0.7;
+    } */
