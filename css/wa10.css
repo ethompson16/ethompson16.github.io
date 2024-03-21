@@ -1,0 +1,26 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+    font-size: 25px;
+    background-color: #c8c6df;
+  }
+
+  label {
+    font-weight: italic;
+  }
+
+  div {
+    padding-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  p {
+    background: #15123a;
+    color: #c7c7c7;
+    padding: 10px;
+    visibility: hidden;
+  }
