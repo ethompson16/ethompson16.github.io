@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const StoryText = "On this cold winter night, :insertx: woke up in :inserty:. He wandered around for a while until he ran into Bob. They continued to walk around together until they saw :insertz:. Together, :insertx: and Bob deafeated it together."
+const StoryText = "On this cold winter night, :insertx: woke up in :inserty:. He wandered around for a while until he ran into Bob. They continued to walk around together until they saw :insertz:. Together, :insertx: and Bob deafeated it together!"
 const insertX = ['Finn the Human', 'Jake the Dog', 'BMO']
 const insertY = ['the Ice Kingdom', 'the Candy Kingdom', 'Lumpy Space']
 const insertZ = ['the Lich', 'a demon lizard made of caramel', 'a rogue vampire']
