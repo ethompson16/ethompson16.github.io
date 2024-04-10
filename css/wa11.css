@@ -18,8 +18,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 600px;
-    height: 800px;
+    bottom: 0;
+    right: 0;
     background-color: rgba(116, 64, 64, 0);
 }
 
